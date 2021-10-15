@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    /* Primary Colors */
+    --color_red: hsl(0, 78%, 62%);
+    --color_cyan: hsl(180, 62%, 55%);
+    --color_orange: hsl(34, 97%, 64%);
+    --color_blue: hsl(212, 86%, 64%);
+
+    /* Neutral Colors */
+    --color_very-dark-blue: hsl(234, 12%, 34%);
+    --color_grayish-blue: hsl(229, 6%, 66%);
+    --color_very_light_gray: hsl(0, 0%, 98%);
+
+    /* Card Item */
+    --boarder-top-width: 4px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--color_very_light_gray);
+    color: var(--color_grayish-blue);
+}
+
+.text-header {
+    margin: 115px 15px 25px 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.text-header h2 {
+    font-weight: 300;
+}
+
+.text-header h3 {
+    color: var(--color_very-dark-blue);
+    font-weight: 600;
+}
+
+.text-header p {
+    margin-top: 15px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.card-item {
+    box-shadow: 0px 5px 25px var(--color_very-dark-blue) ;
+    margin: 35px 15px;
+    border-radius: 15px;
+}
+
+.border-cyan {
+    border-top: var(--boarder-top-width) solid var(--color_cyan);
+}
+
+.border-red{
+    border-top: var(--boarder-top-width) solid var(--color_red);
+}
+
+.border-orange {
+    border-top: var(--boarder-top-width) solid var(--color_orange);
+}
+
+.border-blue{
+    border-top: var(--boarder-top-width) solid var(--color_blue);
+}
+
+.card-item .card-text {
+    margin: 25px;
+    padding-top: 25px;
+}
+
+.card-item h3 {
+    font-size: 24px;
+    color: var(--color_very-dark-blue)
+}
+
+.card-item .card-image {
+    text-align: right;
+    padding: 0 25px 25px 25px;
+}
+
+footer {
+    margin: 25px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (min-width: 600px) {
+    .card-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-item {
+        width: 400px;
+    }
+    
+    .text-header p {
+        width: 600px;
+        margin: 0 auto;
+    }
+}
