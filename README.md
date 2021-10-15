@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/srz2/FM-four-card-feature-section)
-- Live Site URL: [Add live site URL here](https://zealous-ptolemy-097c23.netlify.app/)
+- Solution URL: [View GitHub](https://github.com/srz2/FM-four-card-feature-section)
+- Live Site URL: [View Netlify Site](https://zealous-ptolemy-097c23.netlify.app/)
 
 ## My process
 
